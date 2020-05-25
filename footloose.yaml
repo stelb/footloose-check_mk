@@ -1,0 +1,16 @@
+# vim: ts=2:sw=2:expandtab:ai:
+#
+cluster:
+  name: checkmk
+  privateKey: cluster-key
+machines:
+- count: 1
+  spec:
+    backend: docker
+    image: quay.io/footloose/centos7:0.6.0
+    networks:
+    - monitor-net
+    name: omd%d
+    portMappings:
+    - containerPort: 22
+    - containerPort: 80

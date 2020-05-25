@@ -1,0 +1,4 @@
+---
+- hosts: all
+  roles:
+     - install-check_mk-server

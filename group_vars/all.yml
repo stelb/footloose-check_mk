@@ -1,0 +1,3 @@
+---
+install_check_mk_server_adminpw: test
+install_check_mk_server_site: test
