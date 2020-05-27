@@ -10,6 +10,7 @@
 
     git clone --recursive https://github.com/stelb/footloose-checkmk.git
     cd footloose-checkmk
+    docker network create monitor-net
     footloose create
     ansible-playbook site.yml
 
