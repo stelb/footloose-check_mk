@@ -4,6 +4,7 @@
 
 * docker
 * [footloose](https://github.com/weaveworks/footloose)
+* ansible
 
 ## setup
 
